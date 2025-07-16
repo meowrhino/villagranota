@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    color: ivory;
+    font-size: 1rem; /* Tamaño de fuente base */
+    background-color: #18003c;
+    margin: 0px;
+}
+
+marquee {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 10px;
+    margin: 0px;
+}
+
+marquee {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 20px;
+}
+
+span.verde {
+    color: lawngreen;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de viñeta */
+    padding: 0; /* Opcional: elimina el padding predeterminado */
+    margin: 0; /* Opcional: elimina el margen predeterminado */
+}
+
+marquee, h3 {
+    font-size: 1.1rem; /* Ajusta el tamaño del texto del marquee y h3 */
+}
+
+/* Estilos para los enlaces de idioma */
+.language-links {
+    position: fixed;
+    gap: 10px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.language-links a{
+    text-decoration: none;
+    color: ivory; /* Color inicial de los enlaces */
+}
+
+.footer {
+    display: flex; /* Los enlaces aparecerán en la misma línea */
+}
+
+.language-links a:hover {
+    color: lawngreen; /* Cambia a verde cuando pasas el cursor */
+}
+
+.language-links a:visited {
+    color: ivory; /* Cambia a verde cuando pasas el cursor */
+}
+
+.language-links a:active {
+    color: lawngreen; /* Asegúrate de que el enlace activo no cambie de color */
+}
+
+.language-links a.active {
+    color: lawngreen; /* Asegúrate de que el enlace activo no cambie de color */
+}
+
+
+.wave-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave-line {
+    font-size: 16px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    .wave-line {
+        font-size: 12px;
+    }
+}
